@@ -367,9 +367,9 @@ h5.text-item {
 .service-item .service-img {
     position: absolute;
     padding: 10px;
-    width: 130px;
-    height: 130px;
-    top: -65px;
+    width: 150px;
+    height: 150px;
+    top: -35px;
     left: 50%;
     transform: translateX(-50%);
     background: #FFFFFF;
@@ -377,19 +377,33 @@ h5.text-item {
     z-index: 2;
 }
 
-.service-item .service-detail {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: 1;
+hr.pa_linetitle{
+    width: 15%
+    left: 25%;
+    margin-bottom: 0;
+    opacity: 1 !important;
+    height: 3px;
 }
 
-.service-item .service-title {
-    position: absolute;
-    padding: 65px 30px 25px 30px;
+.cajatitle{
+    height: 80px;
+    text-align: center;
+}
+
+.service-detail {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 100px;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 50px;
+    color: #ee3a23;
+}
+
+.service-title {
+    padding: 5px 10px 0px;
     width: 100%;
     height: 100%;
     top: 0;
@@ -398,83 +412,21 @@ h5.text-item {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center !important;
     background: #FFFFFF;
-    transition: .5s;
 }
 
-.service-item:hover .service-title {
-    top: -100%;
-    height: 100px;
-}
-
-.service-item .service-text {
-    position: absolute;
-    overflow: hidden;
-    padding: 65px 30px 25px 30px;
+.service-text {
+    position: relative;
+    padding: 25px 20px;
     width: 100%;
-    height: 100%;
-    top: 100%;
-    left: 0;
-    display: flex;
+    height: 250px;
     align-items: center;
     text-align: center;
-    background: rgba(2, 36, 91, .7);
-    transition: .5s;
+    background-color: var(--dark);
+    color: #FFF;
+    font-size: 14px;
 }
-
-.service-item:hover .service-text {
-    top: 0;
-    padding-top: 100px;
-}
-
-.service-item .service-text::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100px;
-    top: -20%;
-    left: 0;
-    transform: skewY(-12deg);
-    background: #FFFFFF;
-    transition: .5s;
-}
-
-.service-item:hover .service-text::before {
-    top: -55px;
-    height: 100px;
-}
-
-.serv-txt{
-    font-size: 15px;
-}
-
-.service-item .btn {
-    position: absolute;
-    width: 130px;
-    height: 50px;
-    left: 50%;
-    bottom: -25px;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--secondary);
-    background: #FFFFFF;
-    border: none;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .09);
-    z-index: 2;
-}
-
-.service-item .btn:hover {
-    color: #FFFFFF;
-    background: var(--primary);
-}
-
-.text_title {
-    font-size: 1vw;
-}
-
 
 
 /*** Project ***/
