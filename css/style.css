@@ -360,33 +360,38 @@ h5.text-item {
 /*** Service ***/
 .service-item {
     position: relative;
-    margin: 65px 0 25px 0;
+    margin: 35px 0 25px 0;
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
 
+
 .service-item .service-img {
     position: absolute;
-    padding: 10px;
-    width: 150px;
-    height: 150px;
+    padding: 4px;
+    width: 200px;
+    height: 200px;
     top: -35px;
     left: 50%;
     transform: translateX(-50%);
-    background: #FFFFFF;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .09);
+    background: #FFF;
+    box-shadow: 0 0 75px rgba(0, 0, 0, .09);
+    border-radius: 50%;
     z-index: 2;
 }
 
+.service-img:hover {
+    background: var(--primary);
+    box-shadow: 0 0 75px rgba(0, 0, 0, .09);
+}
+
 hr.pa_linetitle{
-    width: 15%
-    left: 25%;
-    margin-bottom: 0;
     opacity: 1 !important;
     height: 3px;
+    background-color: var(--primary);
 }
 
 .cajatitle{
-    height: 80px;
+    height: 75px;
     text-align: center;
 }
 
@@ -400,6 +405,7 @@ hr.pa_linetitle{
     z-index: 1;
     margin-bottom: 50px;
     color: #ee3a23;
+    margin-top: 50px;
 }
 
 .service-title {
@@ -414,20 +420,26 @@ hr.pa_linetitle{
     justify-content: center;
     text-align: center !important;
     background: #FFFFFF;
+    font-size: 1.4em;
+    margin-top: 50px;
 }
 
 .service-text {
     position: relative;
-    padding: 25px 20px;
+    padding: 15px 10px;
     width: 100%;
-    height: 250px;
+    height: auto;
     align-items: center;
     text-align: center;
-    background-color: var(--dark);
-    color: #FFF;
+    color: #5a5a5a;
     font-size: 14px;
 }
 
+
+.ins_item{
+    width: 50%;
+    height: auto;
+    padding: 0px 50px;}
 
 /*** Project ***/
 .project-carousel {
@@ -444,10 +456,6 @@ hr.pa_linetitle{
     transition: .5s;
 }
 
-.project-item:hover img,
-.project-carousel .owl-item.center img {
-    margin-top: -60px;
-}
 
 .project-item .project-title {
     position: absolute;
@@ -554,6 +562,34 @@ hr.pa_linetitle{
     width: 0;
     background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
+}
+
+.data-contact{
+    margin-top: 20%;
+}
+
+.btnphone:hover .btn_contact{
+    background-color: var(--dark) !important;
+}
+
+.btnphone:hover .data-contact{
+    color: var(--primary) !important;
+}
+
+.btnmail:hover .btn_contact{
+    background-color: var(--dark) !important;
+}
+
+.btnmail:hover .data-contact{
+    color: var(--primary) !important;
+}
+
+.firstphone{
+    color: #FFF;
+}
+
+.firstphone:hover{
+    color: var(--dark);
 }
 
 @media (min-width: 768px) {
@@ -666,6 +702,18 @@ hr.pa_linetitle{
 
 /***MEDIA QUERIES***/
 
+@media only screen and (max-width: 1340px) and (min-width: 992px){
+    .service-item .service-img {
+    width: 170px;
+    height: 170px;
+    }
+
+    .cajatitle{
+        margin-top: 20px;
+    }
+
+}
+
 @media only screen and (max-width: 768px) and (min-width: 320px){
 .serv-txt{
         font-size: 15px;
@@ -686,10 +734,10 @@ hr.pa_linetitle{
     } 
 }
 
-@media only screen (min-width: 1025px){
-    .serv-txt{
-        font-size: 10.5px;
+@media only screen and (max-width: 1920px) and (min-width: 992px){
+    .service-title{
+        font-size: 1.2em;
     } 
-}
 
+}
 
