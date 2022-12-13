@@ -93,6 +93,11 @@ h5.text-item {
     font-weight: normal;
 }
 
+.btnphone2:hover{
+    cursor: pointer !important;
+    background-color: rgba(238,58,35,0.33);
+}
+
 
 .topbar-right {
     position: relative;
