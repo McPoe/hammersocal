@@ -217,7 +217,7 @@ h5.text-item {
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
-        min-height: 450px;
+        min-height: 250px;
     }
     
     #header-carousel .carousel-item img {
@@ -364,6 +364,9 @@ h5.text-item {
     opacity: 1;
 }
 
+span.justificado{
+    text-align: justify !important;
+}
 
 /*** Service ***/
 .service-item {
@@ -438,7 +441,7 @@ hr.pa_linetitle{
     width: 100%;
     height: auto;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     color: #5a5a5a;
     font-size: 14px;
 }
@@ -449,6 +452,7 @@ hr.pa_linetitle{
     height: auto;
     padding: 0px 50px;
 }
+
 
 /*** Project ***/
 .project-carousel {
@@ -746,6 +750,10 @@ hr.pa_linetitle{
     height: auto;
     padding: 0px 20px;
     }
+
+    .centered{
+    margin-left: 20%;
+}
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px){
@@ -765,3 +773,8 @@ hr.pa_linetitle{
 
 }
 
+@media only screen and (max-width: 991px){
+    .centered{
+    margin-left: 20%;
+    }
+}
