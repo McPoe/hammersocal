@@ -750,10 +750,6 @@ hr.pa_linetitle{
     height: auto;
     padding: 0px 20px;
     }
-
-    .centered{
-    margin-left: 20%;
-}
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px){
@@ -763,7 +759,11 @@ hr.pa_linetitle{
 
     .text_title{
         font-size: 1.2em;
-    } 
+    }
+    
+    .centered{
+    margin-left: 20%;
+    }
 }
 
 @media only screen and (max-width: 1920px) and (min-width: 992px){
@@ -771,10 +771,4 @@ hr.pa_linetitle{
         font-size: 1.2em;
     } 
 
-}
-
-@media only screen and (max-width: 991px){
-    .centered{
-    margin-left: 20%;
-    }
 }
