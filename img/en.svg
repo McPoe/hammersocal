@@ -1,21 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.17 196.61">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #ee3a23;
-      }
-
-      .cls-2 {
-        fill: #fff;
-        font-family: Poppins-SemiBoldItalic, Poppins;
-        font-size: 116.2px;
-        font-style: italic;
-        font-weight: 600;
-        letter-spacing: -.07em;
-      }
-    </style>
-  </defs>
-  <path class="cls-1" d="M15,88.28C15,39.52,54.53,0,103.28,0s88.28,39.52,88.28,88.28c0,48.76-39.53,88.28-88.28,88.28-11.66,0-22.77-2.28-32.96-6.39-9.88,11.81-24.07,20.37-44.85,24,9.78-12.46,15.78-26.05,18.29-40.7-17.67-16.14-28.76-39.38-28.76-65.2Z"/>
-  <text class="cls-2" transform="translate(33.04 127.7)"><tspan x="0" y="0">EN</tspan></text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 205.2 196.6" style="enable-background:new 0 0 205.2 196.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EE3A23;}
+	.st1{enable-background:new    ;}
+	.st2{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M15,88.3C15,39.5,54.5,0,103.3,0s88.3,39.5,88.3,88.3s-39.5,88.3-88.3,88.3c-11.7,0-22.8-2.3-33-6.4
+	c-9.9,11.8-24.1,20.4-44.8,24c9.8-12.5,15.8-26.1,18.3-40.7C26.1,137.3,15,114.1,15,88.3L15,88.3z"/>
+<g class="st1">
+	<path class="st2" d="M63.5,59.3l-3.7,21h27.3l-2.2,12.5H57.6l-3.8,22h30.8l-2.3,12.9H35l14.4-81.2h47.1l-2.2,12.8H63.5z"/>
+	<path class="st2" d="M158.2,127.7h-16.4L115,72l-9.9,55.7H88.7l14.4-81.2h16.3l27,55.8l9.9-55.8h16.3L158.2,127.7z"/>
+</g>
 </svg>
