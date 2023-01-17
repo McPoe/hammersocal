@@ -544,7 +544,6 @@ hr.pa_linetitle{
     transition: .5s;
 }
 
-
 /*** Team ***/
 .team-item .team-social {
     position: absolute;
@@ -721,6 +720,9 @@ hr.pa_linetitle{
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
+.princlogo{
+    width: 250px;
+}
 
 /***MEDIA QUERIES***/
 
@@ -750,6 +752,10 @@ hr.pa_linetitle{
     height: auto;
     padding: 0px 20px;
     }
+
+    .centered{
+    margin-left: 20%;
+}
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px){
@@ -759,11 +765,8 @@ hr.pa_linetitle{
 
     .text_title{
         font-size: 1.2em;
-    }
-    
-    .centered{
-    margin-left: 20%;
-    }
+    } 
+
 }
 
 @media only screen and (max-width: 1920px) and (min-width: 992px){
@@ -772,3 +775,14 @@ hr.pa_linetitle{
     } 
 
 }
+
+@media only screen and (max-width: 991px){
+    .centered{
+    margin-left: 20%;
+    }
+
+    .princlogo{
+        width: 200px;
+    }
+}
+
