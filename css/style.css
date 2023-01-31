@@ -247,12 +247,11 @@ h5.text-item {
 /*** Facts ***/
 .facts {
     position: relative;
-    margin: 6rem 0;
-    background: var(--dark);
+    background: #222F3D;
 }
 
-.facts .border {
-    border-color: rgba(255, 255, 255, .1) !important;
+i.text-white{
+   text-shadow: 3px 3px 9px rgba(238,58,35,1); 
 }
 
 
